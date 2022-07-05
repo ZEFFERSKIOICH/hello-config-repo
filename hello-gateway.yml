@@ -7,7 +7,7 @@ eureka:
 instance:
   hostname:localhost
 client:
-  service-url: https://github.com/ZEFFERSKIOICH/hello-config-repo.git
+  service-url:
     default-zone: http://localhost:8761/hello-eureka-service
 
 spring:
